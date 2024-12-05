@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Jaro:opsz@6..72&family=Noto+Sans+JP:wght@100..900&family=Phetsarath:wght@400;700&display=swap');
+
+/* h1{
+    font-family: "Noto Sans JP", sans-serif;
+    color: red;
+    background-color: aqua;
+} */
+
+h1{
+    font-family: "Noto Sans JP", sans-serif;
+    color: red;
+    background-color: aqua;
+    width: 280px;
+}
+
+p{
+    font-family: "Jaro", sans-serif;
+}

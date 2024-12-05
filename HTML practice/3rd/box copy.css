@@ -1,0 +1,94 @@
+body{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 8px dotted yellow;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+    float: left;
+}
+
+.box1
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 40px;
+    border: 10px dashed red;
+    background-color: yellow;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box2
+{
+    height: 100px;
+    width: 100px;
+    border: 10px double black;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background: linear-gradient(red,yellow)
+}
+
+.box3
+{
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background: linear-gradient(red,yellow)
+}
+
+.box4
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 8px solid black;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    float: left;
+
+    transform: translateX(1000px);
+    transform: translateY(1000px);
+    transform: translate(45px,45px);
+
+    transform: scaleX(.6);
+    transform: scaleY(.6);
+    transform: scale(.6);
+
+    transform: rotateX(300deg);
+    transform: rotateY(300deg);
+    transform: scale(300deg);
+
+    transform: skewX(54deg);
+    transform: skewY(54deg);
+    transform: skew(54deg);
+
+}

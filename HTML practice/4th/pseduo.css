@@ -1,0 +1,20 @@
+a{
+    color: purple;
+    text-decoration: line-through;
+}
+
+a:hover{
+    color: red;
+    font-size: larger;
+    text-decoration: underline;
+    transform: scale(.6);
+}
+
+a:active{
+    color: aqua;
+}
+
+a:visited{
+    color: brown;
+    text-decoration: none;
+}
